@@ -1,0 +1,263 @@
+Log file created at: 2017/04/28 14:41:06
+Running on machine: host-192-168-32-135
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0428 14:41:06.309731  7330 logger_google.cpp:99] init_glog_warning_file
+W0428 14:41:06.409479  7330 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8LogStoreE::RebuildIndex START fileid 0 offset 170 checksum 560053781 [0m
+W0428 14:41:06.410194  7330 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8LogStoreE::RebuildIndexForOneFile File Data End, fileid 0 offset 204 [0m
+W0428 14:41:06.410892  7330 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8LogStoreE::Init ok, path ./logpath_127.0.0.1_11111/g0/vfile fileid 0 meta checksum 0 nowfilesize 104857600 nowfilewriteoffset 204 [0m
+W0428 14:41:06.412339  7330 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos18MasterStateMachineE::Init OK, master nodeid 0 version 18446744073709551615 expiretime 0 [0m
+W0428 14:41:06.412897  7331 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos9SystemVSME::RefleshNodeID ip 127.0.0.1 port 11111 nodeid 72058139498785639 [0m
+W0428 14:41:06.412919  7331 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos9SystemVSME::RefleshNodeID ip 127.0.0.1 port 11112 nodeid 72058139498785640 [0m
+W0428 14:41:06.412942  7331 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos9SystemVSME::RefleshNodeID ip 127.0.0.1 port 11113 nodeid 72058139498785641 [0m
+W0428 14:41:06.412955  7331 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos6ConfigE::Init OK [0m
+E0428 14:41:06.413174  7331 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos8DatabaseE::GetMinChosenInstanceID no min chosen instanceid [0m
+E0428 14:41:06.415405  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+W0428 14:41:06.415402  7330 logger_google.cpp:103] [44;37m Imp: PN8phxpaxos5PNodeE::Init OK [0m
+W0428 14:41:06.416344  7339 logger_google.cpp:103] [44;37m Imp: PN8phxpaxos11TcpAcceptorE::run start accept... [0m
+E0428 14:41:07.268561  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:07.949703  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:08.552831  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:09.321987  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+W0428 14:41:09.415621  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos7LearnerE::AskforLearn START [0m
+W0428 14:41:09.415647  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos7LearnerE::AskforLearn END InstanceID 0 MyNodeID 72058139498785639 [0m
+E0428 14:41:09.415979  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 0 [0m
+E0428 14:41:09.416023  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 0 [0m
+E0428 14:41:09.615932  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:09.616770  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:09.616791  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:09.616807  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:09.816890  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:09.816951  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:09.817340  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:09.817534  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.018208  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:10.018528  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:10.018784  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.019031  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.218946  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:10.219267  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:10.219530  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.219903  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.256121  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:10.419854  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:10.420439  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:10.420995  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.421408  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.621552  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:10.622264  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:10.622733  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.623132  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.823462  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:10.824112  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:10.824538  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.825126  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:10.905926  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:11.025504  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:11.026176  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:11.026650  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:11.027250  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:11.226800  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:11.227339  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:11.227865  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:11.228273  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:11.428243  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:11.429792  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:11.430467  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:11.430887  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:11.631568  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:11.632108  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:11.632534  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:11.632984  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:11.800706  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:11.832926  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:11.833691  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:11.834220  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:11.834748  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:12.035064  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:12.035714  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:12.036365  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:12.036885  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+W0428 14:41:12.098140  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos7LearnerE::AskforLearn START [0m
+W0428 14:41:12.098599  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos7LearnerE::AskforLearn END InstanceID 0 MyNodeID 72058139498785639 [0m
+E0428 14:41:12.236991  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:12.237534  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:12.238133  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:12.238668  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:12.438864  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:12.439584  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:12.440106  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:12.440598  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:12.641302  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:12.641930  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:12.642457  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:12.642958  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:12.786489  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:12.842612  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:12.843315  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:12.843961  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:12.844498  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:13.045068  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:13.045732  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:13.046233  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:13.046650  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:13.246981  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:13.247588  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:13.248174  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:13.248716  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:13.449460  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:13.450137  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:13.450742  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:13.451254  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:13.508260  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:13.651536  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:13.652070  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:13.652469  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:13.652889  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:13.852833  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:13.853381  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:13.853876  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:13.854320  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.054247  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:14.054770  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:14.055270  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.055686  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.237848  7330 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+W0428 14:41:14.239207  7330 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos9CommitCtxE::NewCommit OK, valuesize 6 [0m
+W0428 14:41:14.239992  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::Prepare START Now.InstanceID 0 MyNodeID 72058139498785639 State.ProposalID 3 State.ValueLen 6 [0m
+W0428 14:41:14.240365  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::AddPrepareTimer timeoutms 2000 [0m
+W0428 14:41:14.240720  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::Prepare END OK [0m
+W0428 14:41:14.241016  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8AcceptorE::OnPrepare START Msg.InstanceID 0 Msg.from_nodeid 72058139498785639 Msg.ProposalID 3 [0m
+W0428 14:41:14.253587  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8AcceptorE::OnPrepare END Now.InstanceID 0 ReplyNodeID 72058139498785639 [0m
+W0428 14:41:14.253835  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::OnPrepareReply START Msg.ProposalID 3 State.ProposalID 3 Msg.from_nodeid 72058139498785639 RejectByPromiseID 0 [0m
+W0428 14:41:14.254077  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::OnPrepareReply END [0m
+E0428 14:41:14.255589  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:14.256144  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:14.257316  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.257822  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.363904  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:14.458416  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:14.459015  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:14.459482  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.459964  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.660228  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:14.660995  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:14.661448  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.662019  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.861615  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:14.862133  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.862592  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:14.863054  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:14.919533  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:15.063066  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:15.063599  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:15.064126  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:15.064579  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+W0428 14:41:15.254456  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos7LearnerE::AskforLearn START [0m
+W0428 14:41:15.254806  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos7LearnerE::AskforLearn END InstanceID 0 MyNodeID 72058139498785639 [0m
+E0428 14:41:15.265218  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:15.265835  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:15.266242  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:15.266649  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:15.466584  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:15.467190  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:15.467617  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:15.468071  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:15.519373  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:15.667693  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:15.668285  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:15.669937  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:15.670500  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:15.869288  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:15.869909  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:15.871511  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:15.871953  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:16.069653  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:16.070272  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:16.071962  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:16.072360  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+W0428 14:41:16.240295  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::OnPrepareTimeout OK [0m
+W0428 14:41:16.240525  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::Prepare START Now.InstanceID 0 MyNodeID 72058139498785639 State.ProposalID 3 State.ValueLen 6 [0m
+W0428 14:41:16.240731  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::AddPrepareTimer timeoutms 4000 [0m
+W0428 14:41:16.240913  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::Prepare END OK [0m
+W0428 14:41:16.241122  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8AcceptorE::OnPrepare START Msg.InstanceID 0 Msg.from_nodeid 72058139498785639 Msg.ProposalID 3 [0m
+E0428 14:41:16.270947  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:16.271375  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:16.272858  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:16.273216  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+W0428 14:41:16.291822  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8AcceptorE::OnPrepare END Now.InstanceID 0 ReplyNodeID 72058139498785639 [0m
+W0428 14:41:16.292069  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::OnPrepareReply START Msg.ProposalID 3 State.ProposalID 3 Msg.from_nodeid 72058139498785639 RejectByPromiseID 0 [0m
+W0428 14:41:16.292289  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos8ProposerE::OnPrepareReply END [0m
+E0428 14:41:16.318985  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:16.472215  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:16.473279  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:16.473878  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:16.474401  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:16.673961  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:16.674568  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:16.676110  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:16.676584  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:16.875566  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:16.876186  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:16.876796  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:16.877316  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:17.076836  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:17.077348  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:17.077951  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:17.078516  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:17.202517  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:17.277906  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:17.278547  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:17.279103  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:17.279636  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:17.480415  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:17.481139  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:17.481740  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:17.482233  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:17.681586  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:17.682181  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:17.682773  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:17.683353  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:17.882753  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:17.883407  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:17.884001  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:17.884529  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+W0428 14:41:18.039651  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos7LearnerE::AskforLearn START [0m
+W0428 14:41:18.039909  7333 logger_google.cpp:103] [44;37m Imp(0): PN8phxpaxos7LearnerE::AskforLearn END InstanceID 0 MyNodeID 72058139498785639 [0m
+E0428 14:41:18.084373  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:18.085034  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:18.085592  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:18.086107  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:18.119159  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:18.286528  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:18.287001  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:18.287382  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:18.287763  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:18.487787  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:18.488297  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:18.488812  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:18.489351  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:18.689407  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:18.690049  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:18.690614  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:18.691085  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:18.890630  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:18.891165  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:18.891615  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:18.892087  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:19.053903  7334 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0428 14:41:19.092387  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:19.093070  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:19.093654  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:19.094128  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:19.294057  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:19.294710  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:19.295224  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:19.295773  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:19.496464  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:19.497102  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:19.497511  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:19.497911  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:19.697890  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:19.698431  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0428 14:41:19.698884  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 22 socket ip 127.0.0.1 errno 115 [0m
+E0428 14:41:19.699302  7337 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 24 socketfd 23 socket ip 127.0.0.1 errno 115 [0m

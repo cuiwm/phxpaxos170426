@@ -1,0 +1,430 @@
+execve("./phxecho", ["./phxecho", "127.0.0.1:11111", "127.0.0.1:11111,127.0.0.1:11112,"...], [/* 27 vars */]) = 0
+brk(0)                                  = 0x1779000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a6991c000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/opt/gcc-4.9.2/rtf/lib64/tls/x86_64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/opt/gcc-4.9.2/rtf/lib64/tls/x86_64", 0x7fff0a146570) = -1 ENOENT (No such file or directory)
+open("/opt/gcc-4.9.2/rtf/lib64/tls/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/opt/gcc-4.9.2/rtf/lib64/tls", 0x7fff0a146570) = -1 ENOENT (No such file or directory)
+open("/opt/gcc-4.9.2/rtf/lib64/x86_64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/opt/gcc-4.9.2/rtf/lib64/x86_64", 0x7fff0a146570) = -1 ENOENT (No such file or directory)
+open("/opt/gcc-4.9.2/rtf/lib64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/opt/gcc-4.9.2/rtf/lib64", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+open("tls/x86_64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libpthread.so.0", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("x86_64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("libpthread.so.0", O_RDONLY)       = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=57739, ...}) = 0
+mmap(NULL, 57739, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9a6990d000
+close(3)                                = 0
+open("/lib64/libpthread.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000^\340&=\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=145936, ...}) = 0
+mmap(0x3d26e00000, 2212848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3d26e00000
+mprotect(0x3d26e17000, 2097152, PROT_NONE) = 0
+mmap(0x3d27017000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x3d27017000
+mmap(0x3d27019000, 13296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x3d27019000
+close(3)                                = 0
+open("/opt/gcc-4.9.2/rtf/lib64/libstdc++.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\261\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=6705446, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a6990c000
+mmap(NULL, 3217376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9a695fa000
+mprotect(0x7f9a696ed000, 2093056, PROT_NONE) = 0
+mmap(0x7f9a698ec000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf2000) = 0x7f9a698ec000
+mmap(0x7f9a698f7000, 83936, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9a698f7000
+close(3)                                = 0
+open("/opt/gcc-4.9.2/rtf/lib64/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libm.so.6", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/libm.so.6", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("x86_64/libm.so.6", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("libm.so.6", O_RDONLY)             = -1 ENOENT (No such file or directory)
+open("/lib64/libm.so.6", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p>\340'=\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=599480, ...}) = 0
+mmap(0x3d27e00000, 2633912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3d27e00000
+mprotect(0x3d27e83000, 2093056, PROT_NONE) = 0
+mmap(0x3d28082000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x82000) = 0x3d28082000
+close(3)                                = 0
+open("/opt/gcc-4.9.2/rtf/lib64/libgcc_s.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260)\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=546113, ...}) = 0
+mmap(NULL, 2185760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9a693e4000
+mprotect(0x7f9a693fa000, 2093056, PROT_NONE) = 0
+mmap(0x7f9a695f9000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f9a695f9000
+close(3)                                = 0
+open("/opt/gcc-4.9.2/rtf/lib64/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libc.so.6", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/libc.so.6", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("x86_64/libc.so.6", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("libc.so.6", O_RDONLY)             = -1 ENOENT (No such file or directory)
+open("/lib64/libc.so.6", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\356\241&=\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1928936, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a693e3000
+mmap(0x3d26a00000, 3750184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3d26a00000
+mprotect(0x3d26b8a000, 2097152, PROT_NONE) = 0
+mmap(0x3d26d8a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18a000) = 0x3d26d8a000
+mmap(0x3d26d90000, 14632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x3d26d90000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a693e2000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a693e0000
+arch_prctl(ARCH_SET_FS, 0x7f9a693e0720) = 0
+mprotect(0x3d26d8a000, 16384, PROT_READ) = 0
+mprotect(0x3d28082000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a693df000
+mprotect(0x7f9a698ec000, 36864, PROT_READ) = 0
+mprotect(0x3d27017000, 4096, PROT_READ) = 0
+mprotect(0x3d2681f000, 4096, PROT_READ) = 0
+munmap(0x7f9a6990d000, 57739)           = 0
+set_tid_address(0x7f9a693e09f0)         = 7330
+set_robust_list(0x7f9a693e0a00, 0x18)   = 0
+futex(0x7fff0a146e6c, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fff0a146e6c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f9a693e0720) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x3d26e05cb0, [], SA_RESTORER|SA_SIGINFO, 0x3d26e0f7e0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x3d26e05d40, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x3d26e0f7e0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=10240*1024, rlim_max=RLIM_INFINITY}) = 0
+futex(0x7f9a69909c4c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f9a69909c58, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+brk(0)                                  = 0x1779000
+brk(0x179a000)                          = 0x179a000
+access("./logpath_127.0.0.1_11111", F_OK) = 0
+gettimeofday({1493361666, 309731}, NULL) = 0
+open("/etc/localtime", O_RDONLY)        = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a6991b000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0\2\0\0\0\0"..., 4096) = 388
+lseek(3, -240, SEEK_CUR)                = 148
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\3\0\0\0\0"..., 4096) = 240
+close(3)                                = 0
+munmap(0x7f9a6991b000, 4096)            = 0
+gettid()                                = 7330
+uname({sys="Linux", node="host-192-168-32-135", ...}) = 0
+open("./log/phxecho.host-192-168-32-135.root.log.ERROR.20170428-144106.7330", O_WRONLY|O_CREAT|O_EXCL, 0664) = 3
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+fcntl(3, F_SETFL, O_WRONLY|O_APPEND|O_LARGEFILE) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a6991b000
+lseek(3, 0, SEEK_CUR)                   = 0
+unlink("./log/phxecho.ERROR")           = -1 ENOENT (No such file or directory)
+symlink("phxecho.host-192-168-32-135.root.log.ERROR.20170428-144106.7330", "./log/phxecho.ERROR") = 0
+uname({sys="Linux", node="host-192-168-32-135", ...}) = 0
+write(3, "Log file created at: 2017/04/28 "..., 222) = 222
+gettimeofday({1493361666, 310971}, NULL) = 0
+uname({sys="Linux", node="host-192-168-32-135", ...}) = 0
+open("./log/phxecho.host-192-168-32-135.root.log.WARNING.20170428-144106.7330", O_WRONLY|O_CREAT|O_EXCL, 0664) = 4
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFL)                       = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+fcntl(4, F_SETFL, O_WRONLY|O_APPEND|O_LARGEFILE) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a6991a000
+lseek(4, 0, SEEK_CUR)                   = 0
+unlink("./log/phxecho.WARNING")         = -1 ENOENT (No such file or directory)
+symlink("phxecho.host-192-168-32-135.root.log.WARNING.20170428-144106.7330", "./log/phxecho.WARNING") = 0
+write(4, "Log file created at: 2017/04/28 "..., 222) = 222
+gettimeofday({1493361666, 311444}, NULL) = 0
+uname({sys="Linux", node="host-192-168-32-135", ...}) = 0
+open("./log/phxecho.host-192-168-32-135.root.log.INFO.20170428-144106.7330", O_WRONLY|O_CREAT|O_EXCL, 0664) = 5
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(5, F_GETFL)                       = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+fcntl(5, F_SETFL, O_WRONLY|O_APPEND|O_LARGEFILE) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69919000
+lseek(5, 0, SEEK_CUR)                   = 0
+unlink("./log/phxecho.INFO")            = -1 ENOENT (No such file or directory)
+symlink("phxecho.host-192-168-32-135.root.log.INFO.20170428-144106.7330", "./log/phxecho.INFO") = 0
+gettimeofday({1493361666, 311875}, NULL) = 0
+write(5, "Log file created at: 2017/04/28 "..., 222) = 222
+gettimeofday({1493361666, 311948}, NULL) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x3d26a32660}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGALRM, {SIG_IGN, [ALRM], SA_RESTORER|SA_RESTART, 0x3d26a32660}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, {SIG_IGN, [CHLD], SA_RESTORER|SA_RESTART, 0x3d26a32660}, {SIG_DFL, [], 0}, 8) = 0
+access("./logpath_127.0.0.1_11111", F_OK) = 0
+clock_gettime(CLOCK_MONOTONIC, {14080244, 977727156}) = 0
+futex(0x79c858, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x79c868, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mkdir("./logpath_127.0.0.1_11111/g0", 0755) = -1 EEXIST (File exists)
+rename("./logpath_127.0.0.1_11111/g0/LOG", "./logpath_127.0.0.1_11111/g0/LOG.old") = 0
+open("./logpath_127.0.0.1_11111/g0/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 6
+mkdir("./logpath_127.0.0.1_11111/g0", 0755) = -1 EEXIST (File exists)
+open("./logpath_127.0.0.1_11111/g0/LOCK", O_RDWR|O_CREAT, 0644) = 7
+fcntl(7, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}) = 0
+access("./logpath_127.0.0.1_11111/g0/CURRENT", F_OK) = 0
+open("./logpath_127.0.0.1_11111/g0/CURRENT", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=16, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69918000
+read(8, "MANIFEST-000008\n", 8192)      = 16
+read(8, "", 4096)                       = 0
+read(8, "", 8192)                       = 0
+close(8)                                = 0
+munmap(0x7f9a69918000, 4096)            = 0
+open("./logpath_127.0.0.1_11111/g0/MANIFEST-000008", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=78, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69918000
+read(8, "\302\374\251h\21\0\1\1\17PaxosComparator\200\17\20}/\0\1\2"..., 32768) = 78
+read(8, "", 28672)                      = 0
+close(8)                                = 0
+munmap(0x7f9a69918000, 4096)            = 0
+open("./logpath_127.0.0.1_11111/g0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 8
+fcntl(8, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+getdents(8, /* 10 entries */, 32768)    = 296
+getdents(8, /* 0 entries */, 32768)     = 0
+close(8)                                = 0
+open("./logpath_127.0.0.1_11111/g0/000010.log", O_RDONLY) = 8
+gettimeofday({1493361666, 313755}, NULL) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69918000
+write(6, "2017/04/28-14:41:06.313755 7f9a6"..., 59) = 59
+fstat(8, {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69917000
+read(8, "EW\232\262#\0\1\5\0\0\0\0\0\0\0\1\0\0\0\1\10\0\0\0\0\0\0\0\0\f\0\0"..., 32768) = 126
+read(8, "", 28672)                      = 0
+close(8)                                = 0
+munmap(0x7f9a69917000, 4096)            = 0
+gettimeofday({1493361666, 314110}, NULL) = 0
+gettimeofday({1493361666, 314149}, NULL) = 0
+write(6, "2017/04/28-14:41:06.314149 7f9a6"..., 67) = 67
+open("./logpath_127.0.0.1_11111/g0/000012.ldb", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69917000
+write(8, "\0\20\f\0\0\0\0\0\0\0\0\1\7\0\0\0\0\0\0\0\0\0\0\252\0\0\0\25\276a!\t"..., 88) = 88
+write(8, "\0\0\0\0\1\0\0\0\0\300\362\241\260\0\20\2\0\0\0\0\0\0\0\0\1\5\0\0\0\0\0\0"..., 95) = 95
+fdatasync(8)                            = 0
+close(8)                                = 0
+munmap(0x7f9a69917000, 4096)            = 0
+open("./logpath_127.0.0.1_11111/g0/000012.ldb", O_RDONLY) = 8
+stat("./logpath_127.0.0.1_11111/g0/000012.ldb", {st_mode=S_IFREG|0644, st_size=183, ...}) = 0
+mmap(NULL, 183, PROT_READ, MAP_SHARED, 8, 0) = 0x7f9a69917000
+close(8)                                = 0
+gettimeofday({1493361666, 339363}, NULL) = 0
+write(6, "2017/04/28-14:41:06.339363 7f9a6"..., 72) = 72
+gettimeofday({1493361666, 339434}, NULL) = 0
+open("./logpath_127.0.0.1_11111/g0/000013.log", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 8
+open("./logpath_127.0.0.1_11111/g0/MANIFEST-000011", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 9
+fstat(9, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69916000
+write(9, "\354\357\234d8\0\1\1\17PaxosComparator\7\0\t\315\1\20\0\0"..., 63) = 63
+write(9, "3\363\324\317/\0\1\2\r\t\0\3\16\4\7\7\0\f\267\1\20\0\0\0\0\0\0\0\0\1\7\0"..., 54) = 54
+open("./logpath_127.0.0.1_11111/g0", O_RDONLY) = 10
+fsync(10)                               = 0
+close(10)                               = 0
+fdatasync(9)                            = 0
+open("./logpath_127.0.0.1_11111/g0/000011.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 10
+fstat(10, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69915000
+write(10, "MANIFEST-000011\n", 16)      = 16
+fdatasync(10)                           = 0
+close(10)                               = 0
+munmap(0x7f9a69915000, 4096)            = 0
+rename("./logpath_127.0.0.1_11111/g0/000011.dbtmp", "./logpath_127.0.0.1_11111/g0/CURRENT") = 0
+open("./logpath_127.0.0.1_11111/g0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 10
+getdents(10, /* 13 entries */, 32768)   = 400
+getdents(10, /* 0 entries */, 32768)    = 0
+close(10)                               = 0
+gettimeofday({1493361666, 408598}, NULL) = 0
+write(6, "2017/04/28-14:41:06.408598 7f9a6"..., 58) = 58
+unlink("./logpath_127.0.0.1_11111/g0/000010.log") = 0
+gettimeofday({1493361666, 408722}, NULL) = 0
+write(6, "2017/04/28-14:41:06.408722 7f9a6"..., 57) = 57
+unlink("./logpath_127.0.0.1_11111/g0/MANIFEST-000008") = 0
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a692de000
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a691dd000
+clock_gettime(CLOCK_MONOTONIC, {14080245, 74425138}) = 0
+access("./logpath_127.0.0.1_11111/g0/vfile", F_OK) = 0
+open("./logpath_127.0.0.1_11111/g0/vfile/LOG", O_RDWR|O_CREAT|O_APPEND, 0600) = 10
+open("./logpath_127.0.0.1_11111/g0/vfile/meta", O_RDWR|O_CREAT, 0600) = 11
+lseek(11, 0, SEEK_SET)                  = 0
+read(11, "", 4)                         = 0
+read(11, "", 4)                         = 0
+open("./logpath_127.0.0.1_11111/g0/000009.ldb", O_RDONLY) = 12
+stat("./logpath_127.0.0.1_11111/g0/000009.ldb", {st_mode=S_IFREG|0644, st_size=205, ...}) = 0
+mmap(NULL, 205, PROT_READ, MAP_SHARED, 12, 0) = 0x7f9a69915000
+close(12)                               = 0
+gettimeofday({1493361666, 409373}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 409433}, NULL) = 0
+gettimeofday({1493361666, 409480}, NULL) = 0
+gettid()                                = 7330
+write(4, "W0428 14:41:06.409479  7330 logg"..., 154) = 154
+gettimeofday({1493361666, 409587}, NULL) = 0
+gettimeofday({1493361666, 409611}, NULL) = 0
+access("./logpath_127.0.0.1_11111/g0/vfile/0.f", F_OK) = 0
+open("./logpath_127.0.0.1_11111/g0/vfile/0.f", O_RDWR|O_CREAT, 0600) = 12
+gettimeofday({1493361666, 409727}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 409790}, NULL) = 0
+lseek(12, 0, SEEK_END)                  = 104857600
+lseek(12, 170, SEEK_SET)                = 170
+read(12, "\36\0\0\0", 4)                = 4
+read(12, "\0\0\0\0\0\0\0\0\10\0\20\2\30\347\326\200\200\360\217\200\200\1 \0(\0002\0008\0", 30) = 30
+fstat(8, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69914000
+write(8, "\2\227\333W#\0\1\10\0\0\0\0\0\0\0\1\0\0\0\1\10\0\0\0\0\0\0\0\0\f\0\0"..., 42) = 42
+gettimeofday({1493361666, 410077}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 410134}, NULL) = 0
+read(12, "\0\0\0\0", 4)                 = 4
+gettimeofday({1493361666, 410195}, NULL) = 0
+gettid()                                = 7330
+write(4, "W0428 14:41:06.410194  7330 logg"..., 154) = 154
+gettimeofday({1493361666, 410284}, NULL) = 0
+gettimeofday({1493361666, 410308}, NULL) = 0
+close(12)                               = 0
+access("./logpath_127.0.0.1_11111/g0/vfile/1.f", F_OK) = -1 ENOENT (No such file or directory)
+gettimeofday({1493361666, 410401}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 410456}, NULL) = 0
+gettimeofday({1493361666, 410502}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 410561}, NULL) = 0
+open("./logpath_127.0.0.1_11111/g0/vfile/0.f", O_RDWR|O_CREAT, 0600) = 12
+gettimeofday({1493361666, 410629}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 410683}, NULL) = 0
+lseek(12, 0, SEEK_END)                  = 104857600
+lseek(12, 204, SEEK_SET)                = 204
+clock_gettime(CLOCK_REALTIME, {1493361666, 410760638}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+write(10, "2017-04-28 14:41:06:410 init wri"..., 80) = 80
+gettimeofday({1493361666, 410892}, NULL) = 0
+gettid()                                = 7330
+write(4, "W0428 14:41:06.410892  7330 logg"..., 215) = 215
+gettimeofday({1493361666, 410987}, NULL) = 0
+gettimeofday({1493361666, 411019}, NULL) = 0
+gettimeofday({1493361666, 411052}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 411117}, NULL) = 0
+gettimeofday({1493361666, 411152}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 411218}, NULL) = 0
+gettimeofday({1493361666, 411252}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 411313}, NULL) = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 13
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 14
+setsockopt(14, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+bind(14, {sa_family=AF_INET, sin_port=htons(11111), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 15
+setsockopt(15, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+bind(15, {sa_family=AF_INET, sin_port=htons(11111), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+listen(15, 128)                         = 0
+epoll_create(20480)                     = 16
+pipe([17, 18])                          = 0
+fcntl(17, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(18, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+epoll_ctl(16, EPOLL_CTL_ADD, 17, {EPOLLIN, {u32=17, u64=8747795273150890001}}) = 0
+epoll_create(20480)                     = 19
+pipe([20, 21])                          = 0
+fcntl(20, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(21, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+epoll_ctl(19, EPOLL_CTL_ADD, 20, {EPOLLIN, {u32=20, u64=34261194638360596}}) = 0
+gettimeofday({1493361666, 411962}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 412026}, NULL) = 0
+gettimeofday({1493361666, 412076}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 412132}, NULL) = 0
+gettimeofday({1493361666, 412168}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 412222}, NULL) = 0
+gettimeofday({1493361666, 412254}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361666, 412308}, NULL) = 0
+gettimeofday({1493361666, 412340}, NULL) = 0
+gettid()                                = 7330
+write(4, "W0428 14:41:06.412339  7330 logg"..., 174) = 174
+gettimeofday({1493361666, 412423}, NULL) = 0
+gettimeofday({1493361666, 412447}, NULL) = 0
+clock_gettime(CLOCK_MONOTONIC, {14080245, 78029790}) = 0
+clock_gettime(CLOCK_MONOTONIC, {14080245, 78062285}) = 0
+clock_gettime(CLOCK_MONOTONIC, {14080245, 78086349}) = 0
+mmap(NULL, 10489856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9a687dc000
+mprotect(0x7f9a687dc000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9a691dbfd0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9a691dc9d0, tls=0x7f9a691dc700, child_tidptr=0x7f9a691dc9d0) = 7331
+futex(0x7f9a691dc9d0, FUTEX_WAIT, 7331, NULL) = 0
+clone(child_stack=0x7f9a691dbfd0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9a691dc9d0, tls=0x7f9a691dc700, child_tidptr=0x7f9a691dc9d0) = 7332
+mmap(NULL, 10489856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9a635ff000
+mprotect(0x7f9a635ff000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9a63ffefd0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9a63fff9d0, tls=0x7f9a63fff700, child_tidptr=0x7f9a63fff9d0) = 7333
+mmap(NULL, 10489856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9a62bfe000
+mprotect(0x7f9a62bfe000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9a635fdfd0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9a635fe9d0, tls=0x7f9a635fe700, child_tidptr=0x7f9a635fe9d0) = 7334
+gettimeofday({1493361666, 415403}, NULL) = 0
+gettid()                                = 7330
+write(4, "W0428 14:41:06.415402  7330 logg"..., 98) = 98
+gettimeofday({1493361666, 415511}, NULL) = 0
+gettimeofday({1493361666, 415538}, NULL) = 0
+mmap(NULL, 10489856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9a621fd000
+mprotect(0x7f9a621fd000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9a62bfcfd0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9a62bfd9d0, tls=0x7f9a62bfd700, child_tidptr=0x7f9a62bfd9d0) = 7335
+mmap(NULL, 10489856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9a617fc000
+mprotect(0x7f9a617fc000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9a621fbfd0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9a621fc9d0, tls=0x7f9a621fc700, child_tidptr=0x7f9a621fc9d0) = 7336
+mmap(NULL, 10489856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9a60dfb000
+mprotect(0x7f9a60dfb000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9a617fafd0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9a617fb9d0, tls=0x7f9a617fb700, child_tidptr=0x7f9a617fb9d0) = 7337
+mmap(NULL, 10489856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9a603fa000
+mprotect(0x7f9a603fa000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9a60df9fd0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9a60dfa9d0, tls=0x7f9a60dfa700, child_tidptr=0x7f9a60dfa9d0) = 7338
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69913000
+write(1, "run paxos ok\n", 13)          = 13
+write(1, "echo server start, ip 127.0.0.1 "..., 43) = 43
+write(1, "\n", 1)                       = 1
+write(1, "please input: <echo req value>\n", 31) = 31
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9a69912000
+read(0, "a1\n", 1024)                   = 3
+clock_gettime(CLOCK_MONOTONIC, {14080252, 903215072}) = 0
+clock_gettime(CLOCK_MONOTONIC, {14080252, 903255536}) = 0
+clock_gettime(CLOCK_MONOTONIC, {14080252, 903288084}) = 0
+gettimeofday({1493361674, 237849}, NULL) = 0
+gettid()                                = 7330
+write(3, "E0428 14:41:14.237848  7330 logg"..., 145) = 145
+gettimeofday({1493361674, 237995}, NULL) = 0
+fadvise64(3, 0, 12288, POSIX_FADV_DONTNEED) = 0
+write(4, "E0428 14:41:14.237848  7330 logg"..., 145) = 145
+gettimeofday({1493361674, 238462}, NULL) = 0
+fadvise64(4, 0, 16384, POSIX_FADV_DONTNEED) = 0
+gettimeofday({1493361674, 238923}, NULL) = 0
+clock_gettime(CLOCK_MONOTONIC, {14080252, 904498065}) = 0
+clock_gettime(CLOCK_MONOTONIC, {14080252, 904533903}) = 0
+gettimeofday({1493361674, 239066}, NULL) = 0
+gettid()                                = 7330
+gettimeofday({1493361674, 239155}, NULL) = 0
+gettimeofday({1493361674, 239207}, NULL) = 0
+gettid()                                = 7330
+write(4, "W0428 14:41:14.239207  7330 logg"..., 123) = 123
+gettimeofday({1493361674, 239334}, NULL) = 0
+fadvise64(4, 0, 16384, POSIX_FADV_DONTNEED) = 0
+gettimeofday({1493361674, 239692}, NULL) = 0
+futex(0x177d974, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x177d970, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+clock_gettime(CLOCK_REALTIME, {1493361674, 239858212}) = 0
+futex(0x177de20, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x177de5c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, {1493361675, 239858212}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+clock_gettime(CLOCK_REALTIME, {1493361675, 240030256}) = 0
+clock_gettime(CLOCK_REALTIME, {1493361675, 240059456}) = 0
+futex(0x177de20, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x177de5c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 3, {1493361676, 240059456}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+clock_gettime(CLOCK_REALTIME, {1493361676, 240185763}) = 0
+clock_gettime(CLOCK_REALTIME, {1493361676, 240217340}) = 0
+futex(0x177de20, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x177de5c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 5, {1493361677, 240217340}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+clock_gettime(CLOCK_REALTIME, {1493361677, 240423943}) = 0
+clock_gettime(CLOCK_REALTIME, {1493361677, 240453154}) = 0
+futex(0x177de20, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x177de5c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 7, {1493361678, 240453154}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+clock_gettime(CLOCK_REALTIME, {1493361678, 240599176}) = 0
+clock_gettime(CLOCK_REALTIME, {1493361678, 240628025}) = 0
+futex(0x177de20, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x177de5c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 9, {1493361679, 240628025}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+clock_gettime(CLOCK_REALTIME, {1493361679, 240832149}) = 0
+clock_gettime(CLOCK_REALTIME, {1493361679, 240863524}) = 0
+futex(0x177de20, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x177de5c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 11, {1493361680, 240863524}, ffffffff) = ? ERESTART_RESTARTBLOCK (To be restarted)
+--- SIGINT (Interrupt) @ 0 (0) ---
++++ killed by SIGINT +++
